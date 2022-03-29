@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One',sans-serif
+}
+ header {
+     position: fixed;
+     width: 100%;
+     z-index: 30;
+ }
+ button {
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin: 10px;
+ }
+.sezioni {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+ }
+ #prima-sezione {
+    background-color: red;
+ }
+ #seconda-sezione {
+    background-color: green;
+ }
+ #terza-sezione {
+    background-color: yellow;
+ }
+
+
+ div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ h1 {
+     text-align: center;
+     font-size: 65px;
+     color: yellow;
+ }
+ #verde {
+     color: green;
+ }
