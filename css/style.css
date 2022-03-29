@@ -4,16 +4,17 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One',sans-serif
 }
+
  header {
      position: fixed;
      width: 100%;
      z-index: 30;
  }
+
 /* STILE DEI BOTTONI */
 #buttons {
    float: right;
 }
-
  button {
     font-size: 30px;
     background-color: white;
@@ -21,6 +22,7 @@
     padding: 5px 13px;
     margin: 10px;
  }
+
  /* STILE COMUNE DELLE SEZIONI */
 .sezioni {
     position: relative;
@@ -36,6 +38,7 @@
  #terza-sezione {
     background-color: yellow;
  }
+
 /* STILE IMMAGINE E TITOLO */
  .text-image {
     position: absolute;
@@ -43,12 +46,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
  }
+
  /* STILE TITOLO */
  h1 {
      text-align: center;
      font-size: 65px;
      color: yellow;
  }
+ 
  /* STILE DEL TITOLO DIVERSO */
  #verde {
      color: green;
